@@ -4,6 +4,21 @@
   display: inline-block;
 }
 
+div {
+  display: flex;
+  flex: 1 1 auto;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  text-align: center;
+  color: white;
+  font-size: medium;
+  font-weight: bold;
+  font-style: inherit;
+  border-radius: 5px;
+  outline: 10px inset rgba(0, 100, 0, 0.5);
+}
+
 body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: hsla(0, 0%, 71%, 0.075);
@@ -38,12 +53,6 @@ cite {
   font-size: 1.5rem;
 }
 
-.container {
-  display: flex;
-  flex: 1 1 auto;
-  outline: 10px inset rgba(0, 100, 0, 0.5);
-}
-
 p {
   /* display: flex;
     flex: 1 1 auto;
@@ -74,3 +83,9 @@ b {
   color: rgb(55, 20, 15);
   font-weight: 700;
 }
+
+/* Incase cascading changes need revert .container {
+  display: flex;
+  flex: 1 1 auto;
+  outline: 10px inset rgba(0, 100, 0, 0.5);
+} */
