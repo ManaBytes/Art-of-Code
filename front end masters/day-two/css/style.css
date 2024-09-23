@@ -1,3 +1,33 @@
 * {
-  /* blank */
+  
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: hsl(0, 0%, 100%);
+}
+
+img {
+    border: 10px solid rgb(0, 110, 0);
+}
+
+h1 {
+    border: 5px dotted red;
+}
+
+blockquote {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3rem;
+    font-style: italic;
+    text-align: center;
+}
+
+cite {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.bigbold {
+    font-weight: bold;
+    font-size: 1.5rem;
 }
