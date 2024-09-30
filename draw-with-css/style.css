@@ -68,3 +68,15 @@ input[type="checkbox"] {
   cursor: pointer;
   transition: 0.5s;
 }
+
+/* Lamp Switch String 2 */
+input[type="checkbox"]:after {
+  content: "";
+  position: absolute;
+  height: 15px;
+  width: 15px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  left: -5px;
+  bottom: -2px;
+}
