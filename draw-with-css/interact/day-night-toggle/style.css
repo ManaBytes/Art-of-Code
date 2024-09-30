@@ -1,1 +1,23 @@
-/* blank */
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #0c1330;
+}
+
+.container {
+  height: 25em;
+  width: 16.8em;
+  background: linear-gradient(#3f006c, #750050, #b10042, #da4837, #f7bb38);
+  position: absolute;
+  translate: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  z-index: 1;
+  overflow: hidden;
+  border-radius: 16.8em;
+  animation: colors 12s infinite forwards;
+}
+
+@keyframes colors {
+    
+}
