@@ -19,5 +19,19 @@ body {
 }
 
 @keyframes colors {
-    
+  10% {
+    background: linear-gradient(#3f006c, #750050, #b10042, #da4837, #f7bb38);
+  }
+  53% {
+    background: linear-gradient(#14045f, #331a99, #282bce, #1555ec, #1e84f7);
+  }
+  55% {
+    background: linear-gradient(#14045f, #331a99, #282bce, #1555ec, #1e84f7);
+  }
+  98% {
+    background: linear-gradient(#3f006c, #750050, #b10042, #da4837, #f7bb38);
+  }
+  100% {
+    background: linear-gradient(#3f006c, #750050, #b10042, #da4837, #f7bb38);
+  }
 }
