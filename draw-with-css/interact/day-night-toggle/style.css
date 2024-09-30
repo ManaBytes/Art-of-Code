@@ -62,3 +62,13 @@ body {
     transform: rotate(360deg);
   }
 }
+
+.sun {
+  background-color: #f7f7de;
+  height: 3.75em;
+  width: 3.75em;
+  border-radius: 50%;
+  position: absolute;
+  left: 12.18em;
+  top: -1.87em;
+}
