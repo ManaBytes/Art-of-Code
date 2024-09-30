@@ -7,7 +7,6 @@ body {
 .container {
   height: 500px;
   width: 500px;
-  border: 1 solid #ffffff;
   position: absolute;
   transform: (-50%, 50%);
   left: 50%;
@@ -62,7 +61,7 @@ input[type="checkbox"] {
   height: 25px;
   width: 5px;
   position: absolute;
-  top: 147.2px;
+  top: 147px;
   left: 170px;
   outline: none;
   cursor: pointer;
@@ -97,6 +96,5 @@ input[type="checkbox"]:checked {
   height: 40px;
 }
 input[type="checkbox"]:checked:before {
-  background: linear-gradient(rgba(41, 135, 288, 0.5),
-  rgba(41, 135, 288, 0.1));
+  background: linear-gradient(rgba(41, 135, 288, 0.5), rgba(41, 135, 288, 0.1));
 }
