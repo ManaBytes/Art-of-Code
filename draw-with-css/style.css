@@ -3,16 +3,14 @@ body {
   margin: 0;
   background-color: #000000;
 }
-
 .container {
   height: 500px;
   width: 500px;
   position: absolute;
-  transform: (-50%, 50%);
+  transform: translate(-50%, -50%);
   left: 50%;
   top: 50%;
 }
-
 /* Lamp Top */
 .lamp {
   height: 0;
@@ -26,7 +24,6 @@ body {
   right: 0;
   top: 100px;
 }
-
 /* Lamp Stand */
 .lamp:before {
   content: "";
@@ -52,7 +49,6 @@ body {
   right: 0;
   border-radius: 50px 50px 0 0;
 }
-
 /* Lamp Switch String */
 input[type="checkbox"] {
   -webkit-appearance: none;
@@ -67,7 +63,6 @@ input[type="checkbox"] {
   cursor: pointer;
   transition: 0.5s;
 }
-
 /* Lamp Switch String 2 */
 input[type="checkbox"]:after {
   content: "";
@@ -79,7 +74,6 @@ input[type="checkbox"]:after {
   left: -5px;
   bottom: -2px;
 }
-
 /* Light */
 input[type="checkbox"]:before {
   content: "";
@@ -96,5 +90,5 @@ input[type="checkbox"]:checked {
   height: 40px;
 }
 input[type="checkbox"]:checked:before {
-  background: linear-gradient(rgba(41, 135, 288, 0.5), rgba(41, 135, 288, 0.1));
+  background: linear-gradient(rgba(41, 135, 228, 0.5), rgba(41, 135, 228, 0.1));
 }
