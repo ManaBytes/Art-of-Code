@@ -251,3 +251,10 @@ body {
   right: -5.6em;
   top: -0.8em;
 }
+
+/* Sizing */
+@media screen and (min-width: 600px) {
+  .container {
+    font-size: 20px;
+  }
+}
