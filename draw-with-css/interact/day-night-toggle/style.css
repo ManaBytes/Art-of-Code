@@ -216,3 +216,37 @@ body {
     opacity: 0;
   }
 }
+
+.glow {
+  height: 21.8em;
+  width: 21.8em;
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.08);
+  border-radius: 50%;
+  bottom: -19em;
+  animation: float 5s infinite;
+}
+
+@keyframes float {
+  50% {
+    transform: translateY(0.75em);
+  }
+}
+
+.glow:before,
+.glow:after {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 100%;
+  background-color: inherit;
+  border-radius: 50%;
+}
+.glow:before {
+  left: -9.3em;
+  top: -3.1em;
+}
+.glow:after {
+  right: -5.6em;
+  top: -0.8em;
+}
