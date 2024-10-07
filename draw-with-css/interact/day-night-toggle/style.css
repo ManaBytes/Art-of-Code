@@ -137,6 +137,18 @@ body {
   bottom: -5.6em;
 }
 
+.ray4 {
+  position: absolute;
+  height: 0;
+  width: 0.1em;
+  border-bottom: 12.5em solid rgba(255, 255, 255, 0.1);
+  border-left: 0.5em solid transparent;
+  border-right: 0.5em solid transparent;
+  transform: rotate(280deg);
+  left: 7.5em;
+  bottom: -5.6em;
+}
+
 /* Moon */
 .moon {
   height: 3.75em;
