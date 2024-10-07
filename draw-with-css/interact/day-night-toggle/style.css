@@ -195,6 +195,7 @@ body {
   animation: twinkle 12s infinite forwards;
 }
 
+/* Star fade */
 @keyframes twinkle {
   0% {
     opacity: 0;
