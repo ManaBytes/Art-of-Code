@@ -67,6 +67,7 @@ body {
   }
 }
 
+/* Sun */
 .sun {
   background-color: #f7f7de;
   height: 3.75em;
@@ -99,6 +100,20 @@ body {
   bottom: -4.37em;
 }
 
+/* Sun Rays */
+.ray1 {
+  height: 0;
+  width: 0.6em;
+  border-bottom: 10.6em solid rgba(255, 255, 255, 0.1);
+  border-left: 1.8em solid transparent;
+  border-right: 1.8em solid transparent;
+  position: absolute;
+  transform: rotate(130deg);
+  bottom: 0.6em;
+  right: 4em;
+}
+
+/* Moon */
 .moon {
   height: 3.75em;
   width: 3.75em;
