@@ -40,12 +40,12 @@ body {
 .spinner {
   height: 28.12em;
   width: 28.12em;
-  border: 1px solid white;
   border-radius: 50%;
   position: absolute;
   top: 8.75em;
   left: -5.62em;
   animation: spin 12s infinite forwards;
+  /* To see orbit path border: 1px solid white;  */
 }
 
 @keyframes spin {
