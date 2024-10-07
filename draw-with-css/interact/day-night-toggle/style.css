@@ -99,7 +99,7 @@ body {
   bottom: -4.37em;
 }
 
-/* Sun Rays */
+/* Sun rays */
 .ray1 {
   height: 0;
   width: 0.6em;
@@ -148,7 +148,7 @@ body {
   bottom: -5.6em;
 }
 
-/* Moon & Stars*/
+/* Moon & stars*/
 .moon {
   height: 3.75em;
   width: 3.75em;
@@ -217,6 +217,7 @@ body {
   }
 }
 
+/* Bottom glow */
 .glow {
   height: 21.8em;
   width: 21.8em;
