@@ -13,10 +13,10 @@ body {
   top: 50%;
   left: 50%;
   z-index: 1;
+  overflow: hidden;
   border-radius: 16.8em;
   animation: colors 12s infinite forwards;
-  /* overflow: hidden; */
-  /* To see not in frame/overflow */
+  /* To see not in frame/overflow remove overflow: hidden;*/
 }
 
 @keyframes colors {
