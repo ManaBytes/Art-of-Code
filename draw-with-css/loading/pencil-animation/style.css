@@ -21,3 +21,29 @@ div {
   border-left: none;
   border-radius: 0 160px 160px 0;
 }
+
+div:before {
+  content: "";
+  position: absolute;
+  height: 242px;
+  width: 70px;
+  left: -35%;
+  top: -5px;
+  border: 1px sold black;
+  background: linear-gradient(#ed3569 60%, #d2dfe8 60%) no-repeat,
+    linear-gradient(
+      to right,
+      #f26c37 33.33%,
+      #eb852c 33.33%,
+      #eb852c 66.66%,
+      #f19f22 66.66%
+    );
+  background-size: 100% 40%, 100% 60%;
+  background-position: 0 0, 0 100%;
+  border-radius: 10px 10px 0 0;
+}
+
+div:after {
+  content: "";
+  position: absolute;
+}
