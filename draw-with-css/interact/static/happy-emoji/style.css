@@ -60,5 +60,25 @@ body {
   left: 0;
   right: 0;
   top: 10.62em;
-  /* overflow: hidden; */
+  overflow: hidden;
+}
+
+/* Teeth */
+.mouth:before {
+  position: absolute;
+  content: "";
+  height: 1.87em;
+  width: 100%;
+  background-color: #ffedb3;
+}
+
+/* Tongue */
+.mouth:after {
+  position: absolute;
+  content: "";
+  height: 3.75em;
+  width: 100%;
+  background-color: #e63a17;
+  top: 3.12em;
+  border-radius: 50% 50% 0 0;
 }
