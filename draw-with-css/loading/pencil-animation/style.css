@@ -27,7 +27,7 @@ div:before {
   position: absolute;
   height: 242px;
   width: 70px;
-  left: -35%;
+  left: -35px;
   top: -5px;
   border: 1px solid black;
   background: linear-gradient(#ed3569 60%, #d2dfe8 60%) no-repeat,
