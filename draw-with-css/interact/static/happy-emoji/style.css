@@ -30,7 +30,22 @@ body {
   border-radius: 50%;
 }
 
+/* Eyes */
 .emoji:before,
 .emoji:after {
   position: absolute;
+  content: "";
+  height: 1.87em;
+  width: 3.12em;
+  border: 1.12em solid #663733;
+  border-radius: 5em 5em 0 0;
+  border-bottom: none;
+  top: 5em;
+}
+
+.emoji:before {
+  left: 3.12em;
+}
+.emoji:after {
+  right: 3.12em;
 }
