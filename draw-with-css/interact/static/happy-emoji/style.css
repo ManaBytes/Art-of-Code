@@ -42,10 +42,23 @@ body {
   border-bottom: none;
   top: 5em;
 }
-
+/* Eye positions left and right */
 .emoji:before {
   left: 3.12em;
 }
 .emoji:after {
   right: 3.12em;
 }
+
+/* .mouth {
+  position: absolute;
+  background-color: #663733;
+  height: 6.25em;
+  width: 12.5em;
+  border-radius: 0 0 6.25em 6.25em;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 10.62em;
+  overflow: hidden;
+} */
