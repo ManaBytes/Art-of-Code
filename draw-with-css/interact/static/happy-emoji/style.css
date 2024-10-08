@@ -82,3 +82,11 @@ body {
   top: 3.12em;
   border-radius: 50% 50% 0 0;
 }
+
+.container:after {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 50%;
+  background-color: rgba(255, 255, 255, 0.25);
+}
