@@ -12,10 +12,12 @@ Welcome to the Art of Code project! This repository explores the fascinating int
 ## 🚀 Jump In
 
 - Drawing with CSS [Blank Placeholder for now](https://manabytes.github.io/art-of-code/)
+  pathing likely to change, bookmark at own risk until note removed
 
 1. [Toggle Lamp](https://manabytes.github.io/art-of-code/draw-with-css/interact/lamp/)
 2. [Day 2 Night toggle](https://manabytes.github.io/art-of-code/draw-with-css/interact/day-night-toggle/)
 3. [Happy Emoji](https://manabytes.github.io/art-of-code/draw-with-css/static/happy-emoji/)
+4. [Single Div Pencil Animation](https://manabytes.github.io/art-of-code/draw-with-css/loading/pencil-animation/)
 
 ## 🗺️ Roadmap
 
