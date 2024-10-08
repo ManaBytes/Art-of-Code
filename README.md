@@ -15,6 +15,7 @@ Welcome to the Art of Code project! This repository explores the fascinating int
 
 1. [Toggle Lamp](https://manabytes.github.io/art-of-code/draw-with-css/interact/lamp/)
 2. [Day 2 Night toggle](https://manabytes.github.io/art-of-code/draw-with-css/interact/day-night-toggle/)
+3. [Happy Emoji](https://manabytes.github.io/art-of-code/draw-with-css/static/happy-emoji/)
 
 ## 🗺️ Roadmap
 
