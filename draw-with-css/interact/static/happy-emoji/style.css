@@ -50,7 +50,7 @@ body {
   right: 3.12em;
 }
 
-/* .mouth {
+.mouth {
   position: absolute;
   background-color: #663733;
   height: 6.25em;
@@ -61,4 +61,4 @@ body {
   right: 0;
   top: 10.62em;
   overflow: hidden;
-} */
+}
