@@ -20,6 +20,14 @@ div {
   left: 80px;
   border-left: none;
   border-radius: 0 160px 160px 0;
+  transform-origin: 0 50%;
+  animation: draw 8s infinite linear;
+}
+
+@keyframes draw {
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 div:before {
@@ -29,7 +37,6 @@ div:before {
   width: 70px;
   left: -35px;
   top: -5px;
-  border: 1px solid black;
   background: linear-gradient(#ed3569 60%, #d2dfe8 60%) no-repeat,
     linear-gradient(
       to right,
