@@ -18,3 +18,19 @@ body {
   top: 50%;
   left: 50%;
 }
+
+.emoji {
+  height: 18.75em;
+  width: 18.75em;
+  background-color: #ffbe40;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  border-radius: 50%;
+}
+
+.emoji:before,
+.emoji:after {
+  position: absolute;
+}
